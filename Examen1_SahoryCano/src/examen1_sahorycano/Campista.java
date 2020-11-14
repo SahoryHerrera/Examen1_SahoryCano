@@ -8,8 +8,8 @@ public class Campista extends Personas {
         
     }
 
-    public Campista(String Tipodecampista, String nombre, int edad, String sexo) {
-        super(nombre, edad, sexo);
+    public Campista(String Tipodecampista, String nombre, int edad, String sexo, String estado) {
+        super(nombre, edad, sexo,estado);
         this.Tipodecampista = Tipodecampista;
     }
 

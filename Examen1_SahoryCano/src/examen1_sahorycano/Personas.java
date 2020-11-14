@@ -5,14 +5,16 @@ public class Personas {
     private String nombre;
     private int edad;
     private String sexo;
+    private String estado;
 
     public Personas() {
     }
 
-    public Personas(String nombre, int edad, String sexo) {
+    public Personas(String nombre, int edad, String sexo,String estado) {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
+        this.estado = estado;
     }
 
     public String getNombre() {
@@ -38,14 +40,18 @@ public class Personas {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+    
+     public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String Estado) {
+        this.estado = estado;
+    }
 
     @Override
-    public String toString() {
-        return "Personas{" + "nombre=" + nombre + ", edad=" + edad + ", sexo=" + sexo + '}';
+     public String toString() {
+        return nombre;
     }
-    
-    
-    
+
 }
-
-

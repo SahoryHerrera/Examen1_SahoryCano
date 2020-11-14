@@ -7,8 +7,8 @@ public class Jeizontamalito extends Personas {
     public Jeizontamalito() {
     }
 
-    public Jeizontamalito(String nombre, int edad, String sexo) {
-        super(nombre, edad, sexo);
+    public Jeizontamalito(String nombre, int edad, String sexo,String estado) {
+        super(nombre, edad, sexo,estado);
     }
 
     public int getCantidad_desaparecidos() {
